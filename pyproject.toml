@@ -7,3 +7,10 @@ authors = [{name = "Fernando Francisco Azevedo"}]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["agentic_ai_architecture"]
