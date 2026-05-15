@@ -1,0 +1,10 @@
+{
+  "name": "aws-agentic-ai-reference-architecture-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node scripts/lint.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
