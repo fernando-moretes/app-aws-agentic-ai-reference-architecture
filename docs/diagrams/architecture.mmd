@@ -1,0 +1,12 @@
+flowchart LR
+  User[Enterprise User] --> Auth[Identity Provider]
+  Auth --> API[Agent API Boundary]
+  API --> Guardrails[Bedrock Guardrails]
+  Guardrails --> Orchestrator[Agent Orchestrator]
+  Orchestrator --> Bedrock[Amazon Bedrock]
+  Orchestrator --> MCP[MCP Tool Gateway]
+  MCP --> Tools[Enterprise APIs / AWS Tools]
+  Orchestrator --> KB[Knowledge Base / Vector Store]
+  Orchestrator --> Obs[CloudWatch + X-Ray + OTel]
+  Orchestrator --> Events[EventBridge Audit Events]
+  Events --> Human[Human-in-the-loop Review]
