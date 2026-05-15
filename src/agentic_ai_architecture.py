@@ -45,6 +45,4 @@ def generate_review(components: Iterable[ArchitectureComponent]) -> str:
         lines.append(f"- {c.name} [{c.dimension}/{c.criticality.value}]: " + "; ".join(c.mitigations))
     if missing:
         lines += ["", "## Missing dimensions"] + [f"- {m}" for m in missing]
-    return "
-".join(lines) + "
-"
+    return "\n".join(lines) + "\n"
