@@ -1,0 +1,9 @@
+[project]
+name = "aws-agentic-ai-reference-architecture"
+version = "0.1.0"
+description = "Reference architecture toolkit for resilient agentic AI workloads on AWS."
+requires-python = ">=3.11"
+authors = [{name = "Fernando Francisco Azevedo"}]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
