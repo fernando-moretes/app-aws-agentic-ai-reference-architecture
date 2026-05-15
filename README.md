@@ -39,3 +39,18 @@ pytest -q
 ## Portfolio positioning
 
 This repository demonstrates Fernando Azevedo's focus on AWS, AI Engineering, DevSecOps, Well-Architected design and enterprise solution architecture for regulated environments.
+
+## Frontend
+
+```bash
+cd frontend
+npm ci
+npm run lint
+npm run build
+```
+
+The frontend is a dependency-light static portfolio surface ready for Vercel deployment.
+
+## Operations
+
+See [OPERATIONS.md](OPERATIONS.md) for GitFlow, Vercel secrets and security pipeline details.
