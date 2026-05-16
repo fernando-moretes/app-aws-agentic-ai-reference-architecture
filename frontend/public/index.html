@@ -1,83 +1,122 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Portfolio frontend for an AWS Agentic AI reference architecture with Bedrock, MCP tools, guardrails, observability and governance."
-    />
-    <title>AWS Agentic AI Reference Architecture</title>
+    <meta name="description" content="Arquitetura de referencia para sistemas agenticos na AWS com Bedrock, MCP tools, guardrails, observabilidade, seguranca e operacao. Reference architecture for agentic AI systems on AWS with Bedrock, MCP tools, guardrails, observability, security, and operations." />
+    <meta name="keywords" content="Agentic AI, AWS Bedrock, MCP, Guardrails, Observability, Solution Architecture, Fernando Francisco Azevedo, moretes.com, arquitetura de solucoes" />
+    <meta name="author" content="Fernando Francisco Azevedo" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://agentic-ai.moretes.com/" />
+    <link rel="alternate" hreflang="pt-BR" href="https://agentic-ai.moretes.com/#pt" />
+    <link rel="alternate" hreflang="en" href="https://agentic-ai.moretes.com/#en" />
+    <link rel="me" href="https://www.linkedin.com/in/fernando-francisco-azevedo/" />
+    <link rel="me" href="https://github.com/fernandofatech" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Fernando Moretes Architecture Portfolio" />
+    <meta property="og:title" content="AWS Agentic AI Reference Architecture | Fernando Moretes" />
+    <meta property="og:description" content="Arquitetura de referencia para sistemas agenticos na AWS com Bedrock, MCP tools, guardrails, observabilidade, seguranca e operacao. Reference architecture for agentic AI systems on AWS with Bedrock, MCP tools, guardrails, observability, security, and operations." />
+    <meta property="og:url" content="https://agentic-ai.moretes.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AWS Agentic AI Reference Architecture | Fernando Moretes" />
+    <meta name="twitter:description" content="Arquitetura de referencia para sistemas agenticos na AWS com Bedrock, MCP tools, guardrails, observabilidade, seguranca e operacao. Reference architecture for agentic AI systems on AWS with Bedrock, MCP tools, guardrails, observability, security, and operations." />
+    <title>AWS Agentic AI Reference Architecture | Fernando Moretes</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <nav class="nav" aria-label="Primary">
-        <span class="brand">Agentic AI on AWS</span>
-        <a href="https://github.com/fernandofatech/aws-agentic-ai-reference-architecture">GitHub</a>
+    <div class="shell">
+      <nav class="nav" aria-label="Principal">
+        <a class="brand" href="https://fernando.moretes.com">Fernando Moretes</a>
+        <div class="nav__links">
+          <a href="https://github.com/fernandofatech/aws-agentic-ai-reference-architecture">GitHub</a>
+          <a href="https://www.linkedin.com/in/fernando-francisco-azevedo/">LinkedIn</a>
+          <a href="https://fernando.moretes.com">Portfolio</a>
+        </div>
       </nav>
-      <section class="hero-grid">
-        <div>
-          <p class="eyebrow">Enterprise AI Architecture</p>
-          <h1>AWS Agentic AI Reference Architecture</h1>
-          <p class="lead">
-            A production-minded blueprint for agentic AI workloads using Bedrock, MCP Tool Gateway,
-            Guardrails, identity boundaries, human escalation and full-stack Observability.
-          </p>
-          <div class="actions">
-            <a class="button primary" href="https://github.com/fernandofatech/aws-agentic-ai-reference-architecture">View repository</a>
-            <a class="button" href="../docs/architecture-overview.md">Architecture overview</a>
+
+      <main>
+        <section class="hero">
+          <div>
+            <p class="eyebrow">Agentic AI + AWS + Guardrails</p>
+            <h1>AWS Agentic AI Reference Architecture</h1>
+            <p class="lead">Arquitetura de referencia para sistemas agenticos na AWS com Bedrock, MCP tools, guardrails, observabilidade, seguranca e operacao.</p>
+            <div class="lang-grid" aria-label="Resumo bilingue">
+              <article id="pt" class="lang-card">
+                <strong>Português</strong>
+                <p>Arquitetura de referencia para sistemas agenticos na AWS com Bedrock, MCP tools, guardrails, observabilidade, seguranca e operacao.</p>
+              </article>
+              <article id="en" class="lang-card">
+                <strong>English</strong>
+                <p>Reference architecture for agentic AI systems on AWS with Bedrock, MCP tools, guardrails, observability, security, and operations.</p>
+              </article>
+            </div>
+            <div class="actions">
+              <a class="button button--primary" href="https://github.com/fernandofatech/aws-agentic-ai-reference-architecture">Ver repositório / View repo</a>
+              <a class="button" href="https://github.com/fernandofatech/aws-agentic-ai-reference-architecture/blob/main/docs/architecture.md">Documentação / Docs</a>
+              <a class="button" href="https://fernando.moretes.com">Perfil profissional</a>
+            </div>
           </div>
-        </div>
-        <div class="architecture-map" aria-label="Agentic AI architecture map">
-          <div>Users</div>
-          <div>Identity Broker</div>
-          <div>Bedrock Runtime</div>
-          <div>MCP Tool Gateway</div>
-          <div>Guardrails</div>
-          <div>Telemetry Lake</div>
-        </div>
-      </section>
-    </header>
+          <aside class="panel" aria-label="Sinais de portfolio">
+            <p class="panel__label">Portfolio signal</p>
+            <strong>PoC publica para arquitetura de soluções, AWS, IA e engenharia DevSecOps.</strong>
+            <ul>
+              <li>Agentic AI</li>
+              <li>Bedrock</li>
+              <li>MCP tools</li>
+              <li>Guardrails</li>
+              <li>Observability</li>
+              <li>Security</li>
+            </ul>
+          </aside>
+        </section>
 
-    <main>
-      <section class="section">
-        <h2>Reference Architecture Pillars</h2>
-        <div class="cards">
-          <article>
-            <h3>Controlled Tools</h3>
-            <p>MCP-style tool access is mediated through explicit authorization, allow lists and auditable boundaries.</p>
-          </article>
-          <article>
-            <h3>Responsible AI</h3>
-            <p>Bedrock Guardrails and escalation paths keep policy, risk and human review inside the design.</p>
-          </article>
-          <article>
-            <h3>Resilience</h3>
-            <p>Retries, circuit breakers, fallback models and asynchronous events reduce brittle agent behavior.</p>
-          </article>
-          <article>
-            <h3>Observability</h3>
-            <p>Captures traces, tool calls, quality signals, token budgets and operational metrics for production review.</p>
-          </article>
-        </div>
-      </section>
+        <section class="section" aria-labelledby="focus-title">
+          <div class="section__head">
+            <h2 id="focus-title">Arquitetura que mostra pensamento de solução.</h2>
+            <p>Conteúdo desenhado para entrevistas, discovery técnico, revisão executiva e demonstração prática de boas práticas em cloud e IA.</p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <span>01</span>
+              <h3>Loop agentico seguro</h3>
+              <p>Separacao entre plano, execucao de tools, politicas, memoria e auditoria.</p>
+            </article>
+            <article class="card">
+              <span>02</span>
+              <h3>Controles produtivos</h3>
+              <p>Guardrails, IAM, isolamento, avaliacao e fallback operacional.</p>
+            </article>
+            <article class="card">
+              <span>03</span>
+              <h3>Arquitetura executiva</h3>
+              <p>Material pronto para explicar valor, riscos e evolucao tecnica.</p>
+            </article>
+          </div>
+        </section>
 
-      <section class="band">
-        <div>
-          <h2>Built for Architecture Conversations</h2>
-          <p>
-            The repository frames enterprise AI as a system of identity, policy, runtime,
-            integration and operations decisions rather than a simple chat demo.
-          </p>
-        </div>
-        <ul class="checks">
-          <li>Python validation for architecture logic</li>
-          <li>Static frontend ready for Vercel</li>
-          <li>Security, dependency and code scanning pipelines</li>
-          <li>Threat model, ADR and Well-Architected documentation</li>
-        </ul>
-      </section>
-    </main>
+        <section class="section" aria-labelledby="proof-title">
+          <div class="section__head">
+            <h2 id="proof-title">Evidências técnicas / Technical proof</h2>
+            <p>Projetos com documentação, automação, testes e superfície pública pronta para avaliação rápida por recrutadores, líderes técnicos e times de arquitetura.</p>
+          </div>
+          <ul class="proof">
+            <li>Bedrock</li>
+            <li>MCP</li>
+            <li>Guardrails</li>
+            <li>Observability</li>
+            <li>Well-Architected</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>
+          Fernando Francisco Azevedo ·
+          <a href="https://www.linkedin.com/in/fernando-francisco-azevedo/">LinkedIn</a> ·
+          <a href="https://github.com/fernandofatech">GitHub</a> ·
+          <a href="https://fernando.moretes.com">fernando.moretes.com</a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
