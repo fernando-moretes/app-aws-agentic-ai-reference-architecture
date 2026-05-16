@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://agentic-ai.moretes.com/sitemap.xml

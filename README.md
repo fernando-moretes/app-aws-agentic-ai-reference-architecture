@@ -2,6 +2,17 @@
 
 Production-grade reference architecture for **resilient agentic AI workloads on AWS**. The repository is designed as a portfolio-quality blueprint for Solution Architects building enterprise AI platforms with Amazon Bedrock, MCP tools, guardrails, identity, observability and Well-Architected practices.
 
+## Live portfolio / Portfolio ao vivo
+
+- **Production:** [AWS Agentic AI Reference Architecture](https://agentic-ai.moretes.com)
+- **Documentation:** [Project docs](docs/architecture.md)
+- **GitHub:** [fernandofatech/aws-agentic-ai-reference-architecture](https://github.com/fernandofatech/aws-agentic-ai-reference-architecture)
+- **Author:** [Fernando Francisco Azevedo](https://fernando.moretes.com) · [LinkedIn](https://www.linkedin.com/in/fernando-francisco-azevedo/) · [GitHub](https://github.com/fernandofatech)
+
+This public repository is part of a bilingual portfolio focused on solution architecture, AWS, AI, MCP/tooling, DevSecOps, and production-ready engineering practices.
+
+Este repositório público faz parte de um portfólio bilíngue focado em arquitetura de soluções, AWS, IA, MCP/tools, DevSecOps e boas práticas de engenharia para produção.
+
 ## Why this project exists
 
 Most AI demos stop at a chat UI. Enterprise architects need more: resilience, security, cost control, operational visibility, governance and integration with real systems. This project documents and validates an AWS architecture for agentic AI that can survive production constraints.
