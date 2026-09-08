@@ -7,12 +7,16 @@
  */
 workspace "app-aws-agentic-ai-reference-architecture" "Bilingual AWS agentic AI reference architecture with Bedrock, MCP tools, guardrails, observability and DevSecOps pipelines." {
 
+    configuration {
+        scope softwaresystem
+    }
+
     model {
         usuario = person "Usuário"
         sistema = softwareSystem "app-aws-agentic-ai-reference-architecture" "Bilingual AWS agentic AI reference architecture with Bedrock, MCP tools, guardrails, observability and DevSecOps pipelines." {
             app = container "Aplicação" "Descreva o que roda aqui" "ci-python.yml"
         }
-        usuario -> sistema.app "Usa"
+        usuario -> sistema.app "Usa" "HTTPS"
     }
 
     views {
@@ -25,9 +29,19 @@ workspace "app-aws-agentic-ai-reference-architecture" "Bilingual AWS agentic AI 
             autoLayout lr
         }
         styles {
-            element "Person" { shape person; background #08427b; color #ffffff }
-            element "Software System" { background #1168bd; color #ffffff }
-            element "Container" { background #438dd5; color #ffffff }
+            element "Person" {
+                shape person
+                background #08427b
+                color #ffffff
+            }
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
         }
     }
 }
